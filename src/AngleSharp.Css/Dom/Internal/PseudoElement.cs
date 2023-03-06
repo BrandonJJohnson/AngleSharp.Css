@@ -133,6 +133,8 @@ namespace AngleSharp.Css.Dom
 
         public NodeFlags Flags => _host.Flags;
 
+        public string GivenNamespaceUri => _host.GivenNamespaceUri;
+
 
         #endregion
 
